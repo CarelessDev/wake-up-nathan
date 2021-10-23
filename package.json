@@ -1,0 +1,16 @@
+{
+  "name": "wake-up-nathan",
+  "version": "1.0.0",
+  "description": "起きてくださいお兄ちゃん",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Leomotors",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0"
+  }
+}
