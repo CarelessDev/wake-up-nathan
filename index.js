@@ -12,12 +12,15 @@ client.on("ready", () => {
   console.log("READY");
 });
 
+let count = 0;
+
 client.on("messageCreate", (msg) => {
   if (msg.content.startsWith("!wakeup")) {
     setInterval(() => {
       msg.channel.send(
         `<@!${process.env.TARGET_COMRADE}> SOVIET UNION NEEDS YOU`
       );
+      console.log(++count);
     }, 2000);
   }
 });
